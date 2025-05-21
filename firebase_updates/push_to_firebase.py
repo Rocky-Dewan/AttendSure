@@ -7,7 +7,7 @@ from firebase_admin import credentials, db
 def initialize_firebase(cred_path):
     cred = credentials.Certificate(cred_path)
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://iot-attendance-system-914b1-default-rtdb.firebaseio.com/'  # Replace this with your DB URL
+        'databaseURL': 'https://iot-attendance-system-......firebaseio.com/'  # Replace this with your DB URL
     })
 
 def load_student_encodings(student_dir):
